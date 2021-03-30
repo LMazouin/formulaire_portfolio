@@ -17,64 +17,64 @@ body{
     flex-direction: row;
 }
 
-#rounded_box1{
+#round_box_upper_left1{
     transform: translate(-50%, 0px);
     position: absolute;
     left: 0;
-    top: 20px;
+    top: 0px;
     border-radius: 25px;
     background: var(--white);
     padding: 0px; 
     width: 100px;
-    height: 50px;
+    height: 60px;
 }
 
-#rounded_box2{
+#round_box_upper_left2{
     transform: translate(-50px, 0px);
     position: absolute;
     left: 0;
-    top: 100px;
+    top: 60px;
     border-radius: 25px;
     background: var(--blue);
     padding: 0px; 
     width: 100px;
-    height: 50px;
+    height: 40px;
 }
 
-#rounded_box3{
+#round_box_middle_left1{
     transform: translate(-30px, 0px);
     position: absolute;
     left: 0;
-    top: 150px;
+    top: 200px;
     border-radius: 25px;
     background: var(--white);
     padding: 0px; 
     width: 100px;
-    height: 50px;
+    height: 30px;
 }
 
-#rounded_box4{
-    transform: translate(-40px, 0px);
+#round_box_middle_left2{
+    transform: translate(-20px, 0px);
     position: absolute;
     left: 0;
-    top: 250px;
+    top: 230px;
     border-radius: 25px;
-    background: var(--white);
+    background: var(--blue);
     padding: 0px; 
-    width: 100px;
-    height: 50px;
+    width: 50px;
+    height: 30px;
 }
 
-#rounded_box5{
-    transform: translate(40px, 0px);
+#round_box_middle_left3{
+    transform: translate(-20px, 0px);
     position: absolute;
-    right: 0;
-    top: 350px;
+    left: 0;
+    top: 260px;
     border-radius: 25px;
     background: var(--white);
     padding: 0px; 
     width: 100px;
-    height: 50px;
+    height: 30px;
 }
 
 #rounded_box6{
