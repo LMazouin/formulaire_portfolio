@@ -24,6 +24,7 @@ width: 100px;
 height: 50px;
 }  
 
+<<<<<<< HEAD
 #rounded_box2{
     transform: translate(-25px, 50px);
     border-radius: 25px;
@@ -33,6 +34,8 @@ height: 50px;
     height: 50px;
     }  
 
+=======
+>>>>>>> b7df25da0b1a3bb4c4ed528fef3b1a856975fd40
 * {
     margin: 0;
     padding: 0;
