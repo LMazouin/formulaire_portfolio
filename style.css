@@ -1,14 +1,10 @@
 :root{
-    --blue: #0000FF;
+    --blue: #4c49b9;
     --white: #FFFFFF;
 }
 
-
-
 body{
     background: var(--blue);
-    margin: 0px;
-    padding: 0px;
 }
 
 #frame2{
@@ -17,7 +13,9 @@ body{
     margin: 50px;
 }
 
-#rounded_box{
+
+
+#rounded_box1{
 transform: translate(-25px, 0px);
 border-radius: 25px;
 background: var(--white);
@@ -25,7 +23,16 @@ padding: 0px;
 width: 100px;
 height: 50px;
 }  
-=======
+
+#rounded_box2{
+    transform: translate(-25px, 50px);
+    border-radius: 25px;
+    background: var(--blue);
+    padding: 0px; 
+    width: 100px;
+    height: 50px;
+    }  
+
 * {
     margin: 0;
     padding: 0;
