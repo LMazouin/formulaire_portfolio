@@ -8,45 +8,131 @@ body{
 }
 
 #frame2{
+    position: relative;
     border-radius: 25px;
     background-color: var(--white);
     margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
-
-
 #rounded_box1{
-transform: translate(-25px, 0px);
-border-radius: 25px;
-background: var(--white);
-padding: 0px; 
-width: 100px;
-height: 50px;
-}  
+    transform: translate(-50%, 0px);
+    position: absolute;
+    left: 0;
+    top: 20px;
+    border-radius: 25px;
+    background: var(--white);
+    padding: 0px; 
+    width: 100px;
+    height: 50px;
+}
 
-<<<<<<< HEAD
 #rounded_box2{
-    transform: translate(-25px, 50px);
+    transform: translate(-50px, 0px);
+    position: absolute;
+    left: 0;
+    top: 100px;
     border-radius: 25px;
     background: var(--blue);
     padding: 0px; 
     width: 100px;
     height: 50px;
-    }  
+}
 
-=======
->>>>>>> b7df25da0b1a3bb4c4ed528fef3b1a856975fd40
+#rounded_box3{
+    transform: translate(-30px, 0px);
+    position: absolute;
+    left: 0;
+    top: 150px;
+    border-radius: 25px;
+    background: var(--white);
+    padding: 0px; 
+    width: 100px;
+    height: 50px;
+}
+
+#rounded_box4{
+    transform: translate(-40px, 0px);
+    position: absolute;
+    left: 0;
+    top: 250px;
+    border-radius: 25px;
+    background: var(--white);
+    padding: 0px; 
+    width: 100px;
+    height: 50px;
+}
+
+#rounded_box5{
+    transform: translate(40px, 0px);
+    position: absolute;
+    right: 0;
+    top: 350px;
+    border-radius: 25px;
+    background: var(--white);
+    padding: 0px; 
+    width: 100px;
+    height: 50px;
+}
+
+#rounded_box6{
+    transform: translate(30px, 0px);
+    position: absolute;
+    right: 0;
+    top: 50px;
+    border-radius: 25px;
+    background: var(--white);
+    padding: 0px; 
+    width: 100px;
+    height: 50px;
+}
+
+#rounded_box7{
+    transform: translate(30px, 0px);
+    position: absolute;
+    right: 0;
+    top: 300px;
+    border-radius: 25px;
+    background: var(--blue);
+    padding: 0px; 
+    width: 100px;
+    height: 50px;
+}
+
+#rounded_box8{
+    transform: translate(30px, 0px);
+    position: absolute;
+    right: 0;
+    top: 120px;
+    border-radius: 25px;
+    background: var(--white);
+    padding: 0px; 
+    width: 100px;
+    height: 50px;
+}
+
+
 * {
     margin: 0;
     padding: 0;
 }
 
-.col1 {
+#col1 {
     width: 80vh;
     height: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin: 50px;
+}
+
+#col2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
 }
 
 
@@ -56,6 +142,7 @@ form {
     display: flex;
     flex-direction: column;
     color: #4c49b9;
+
 }
 
 input{
@@ -64,6 +151,7 @@ input{
     border-radius:10px ;
     background-color: #f4f6fc;
     line-height: 2em;
+    margin: 5px;
 }
 
 textarea {
