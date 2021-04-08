@@ -7,6 +7,7 @@ body{
     background: var(--blue);
 }
 
+
 #frame2{
     position: relative;
     border-radius: 25px;
@@ -15,6 +16,8 @@ body{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    max-width: 100%;
+    min-width: 800px;
 }
 
 #round_box_upper_left1{
